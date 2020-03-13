@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 90px;
+  color: #66BFBF
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+p{
+line-height: 2;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 2%;
+  margin: 100px auto;
+  }
+
+
+.fota-profilowe {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+
+
+
+.podkreslenie {
+  text-decoration: underline;
+}
+
+
+.kon-foto {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.murarz-foto {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+  }
+
+.top-container {
+  background-color: #EAF6F5;
+  padding-top: 10%;
+  position: relative;
+}
+/*
+.middle-container {}
+
+.bottom-container {}
+*/
+
+.mountain-top {
+  width: 512px;
+  margin-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+  width: 10%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 500px;
+  width: 10%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.profilowy-opis{
+  width: 30%;
+  margin:  auto auto 100px auto;
+  font-weight: 500;
+}
+
+.btn {
+	background:linear-gradient(to bottom, #66bfbf 5%, #66bda4 100%);
+	background-color:#66bfbf;
+	border-radius:28px;
+	border:1px solid #66bfbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	  font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow: 1px #66bfbf;
+
+}
+.bottom-container{
+  background-color: #66BFBF;
+padding: 50px 0 20px;
+}
+.copyright{
+  margin: 50px auto 50px auto;
+  font-size: 0.75rem;
+    color: #EAF6F6;
+    padding: 20px 0;
+}
+
+.contact-mess{
+  width: 40%;
+  margin: 40px auto 60px;
+}
